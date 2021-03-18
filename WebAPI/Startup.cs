@@ -32,9 +32,10 @@ namespace WebAPI
         {
             //Autofac , Ninject, CastleWindsor, StructureMap, LightInject, DryInject --> IoC Cantainer
             //AOP
+            //Postsharp ucretli
             services.AddControllers();
-            services.AddSingleton<IProductService,ProductManager>();
-            services.AddSingleton<IProductDal, EfProductDal>();
+            //services.AddSingleton<IProductService,ProductManager>();
+            //services.AddSingleton<IProductDal, EfProductDal>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });
