@@ -9,6 +9,7 @@ using Business.Concrete;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Autofac.Extras.DynamicProxy;
+using Business.CCS;
 using Castle.DynamicProxy;
 using Core.Utilities.Interceptors;
 
