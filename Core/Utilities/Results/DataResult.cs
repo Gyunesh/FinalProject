@@ -8,7 +8,7 @@ namespace Core.Utilities.Results
 {
     public class DataResult<T> : Result, IDataResult<T>
     {
-        //result ta this kullanildigi icin burada base kullanildi. ic ice calisiyorlar
+        
         public DataResult(T data,bool success, string message):base(success,message)
         {
             Data = data;
